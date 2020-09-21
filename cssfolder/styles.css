@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.drag-drop-control {
+  border: 2px solid #dfa612;
+  color: black;
+  display: flex;
+  font-family: sans-serif;
+  font-weight: bold;
+  width: 50%;
+}
+
+.drag-drop__from {
+  flex-basis: 100%;
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.drag-drop__element {
+  background-color: #4aae9b;
+  font-weight: normal;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.drop__zone {
+  background-color: #6db65b;
+  flex-basis: 100%;
+  flex-grow: 1;
+  padding: 10px;
+}
