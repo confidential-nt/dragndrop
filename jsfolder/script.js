@@ -42,7 +42,9 @@ function fromDropHandler(event) {
 
 function dropZoneDropHandler(event) {
   const data = event.dataTransfer.getData("text");
+  
   const draggableElement = document.getElementById(data);
+  console.log(draggableElement);
   dropZone.appendChild(draggableElement);
   event.dataTransfer.clearData();
   // anotherPaintItem(draggableElement.innerText);
